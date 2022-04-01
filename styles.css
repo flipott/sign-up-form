@@ -1,0 +1,105 @@
+@font-face {
+    font-family: "Fibography";
+    src: url(./fonts/Fibography.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(39, 39, 39);
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+}
+
+.left-bar {
+    display: flex;
+    flex-direction: column;
+    background-image: url(./images/sea.jpg);
+    background-size: cover;
+    max-width: 33vw;
+    flex: 1;
+
+}
+
+img {
+    height: 8rem;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5vw;
+    margin-top: 10vh;
+    padding: 2vh;
+    background-color: rgba(0,0,0,0.25);
+    color: white;
+}
+
+h1 {
+    font-family: "Fibography";
+    font-size: 4rem;
+}
+
+
+.right-content {
+    width: 67vw;
+}
+
+.information {
+    display: flex;
+    height: 33vh;
+    background-color: rgb(236, 236, 227);
+    padding-left: 2rem;
+    align-items: flex-end;
+}
+
+h2 {
+    margin-bottom: 4rem;
+    margin-right: 15rem;
+    font-family: 'Helvetica';
+}
+
+.form {
+    display: flex;
+    height: 33vh;
+    background-color: white;
+}
+
+p {
+    font-family: 'Helvetica';
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(48, 48, 240);
+}
+
+#create-account {
+    background-color: lightsteelblue;
+    width: fit-content;
+    padding: 14px 18px;
+    border-radius: 8px;
+    border: none;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+#create-account:hover {
+    background-color: white;
+    cursor: pointer;
+}
+
+.create {
+    display: flex;
+    flex-direction: column;
+    height: 33vh;
+    background-color: rgb(236, 236, 227);
+    padding: 2rem;
+    padding-bottom: 0;
+}
+
