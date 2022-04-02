@@ -23,6 +23,48 @@ body {
 
 }
 
+input, label {
+    display: block;
+}
+
+label {
+    font-size: 0.90rem;
+    font-family: "Helvetica";
+    color: darkslategrey;
+}
+
+input {
+    width: 100%;
+}
+
+
+form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;    
+    column-gap: 6rem;
+    row-gap: 2rem;
+    height: 100%;
+    justify-content: flex-start;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+    padding: 2rem;
+    padding-bottom: 3rem;
+}
+
+.form-header {
+    margin: 0;
+    margin-left: 0.30rem;
+    padding-bottom: 1rem;
+    font-weight: bold;
+}
+
+
+
 img {
     height: 8rem;
 }
@@ -64,7 +106,7 @@ h2 {
 
 .form {
     display: flex;
-    height: 33vh;
+    height: 22vh;
     background-color: white;
 }
 
@@ -97,7 +139,7 @@ a {
 .create {
     display: flex;
     flex-direction: column;
-    height: 33vh;
+    height: 44vh;
     background-color: rgb(236, 236, 227);
     padding: 2rem;
     padding-bottom: 0;
