@@ -1,4 +1,4 @@
-# Sign Up Form
+# Sign-Up Form
 
 A basic sign-up webpage created for a fictional newsletter. My first exposure to HTML forms. 
 
