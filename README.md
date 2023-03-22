@@ -1,7 +1,15 @@
-# sign-up-form
+# Sign Up Form
 
-This is a basic sign-up form webpage created for a fictional newsletter. It was built with HTML and CSS.
+A basic sign-up webpage created for a fictional newsletter. My first exposure to HTML forms. 
 
-Live page viewable at https://flipott.github.io/sign-up-form/
+Live page viewable here: https://flipott.github.io/sign-up-form/
 
-Anchor icon created by Freepik on Flaticon.com https://www.flaticon.com/free-icon/anchor_5015954
+# Features
+- Form layout
+- Responsive design
+
+# Tools Used
+[![My Skills](https://skillicons.dev/icons?i=html,css)](https://skillicons.dev)
+
+# Attribution
+Anchor icon created by Freepik on Flaticon: https://www.flaticon.com/free-icon/anchor_5015954
